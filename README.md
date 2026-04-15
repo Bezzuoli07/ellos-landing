@@ -38,7 +38,8 @@ Como meu foco principal nesta candidatura e front-end, a versao publicada online
 
 ## Como visualizar
 
-Abra o arquivo `index.html` no navegador para visualizar a interface localmente.
+A interface do projeto pode ser visualizada pela versão publicada online.
+Link: https://bezzuoli07.github.io/ellos-landing
 
 ## Observacoes
 
