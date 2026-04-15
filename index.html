@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaMente | Terapia e bem-estar</title>
+  <meta name="description" content="Landing page para teste técnico com formulário funcional.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="assets/images/favicon-transparent.png">
+  <link rel="preload" as="image" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="NovaMente - voltar ao topo">
+        <img class="brand-logo" src="assets/images/logo.png" alt="NovaMente" decoding="async">
+      </a>
+      <div class="nav-links">
+        <a href="#acolhimento">Acolhimento</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container" id="top">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Psicoterapia online e presencial</span>
+        <h1>Um espaço de cuidado para você respirar com mais leveza.</h1>
+        <p>
+          Atendimento psicológico com escuta qualificada, abordagem acolhedora e
+          acompanhamento pensado para ansiedade, estresse e momentos de transição.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contato">Agendar triagem</a>
+          <a class="button button-secondary" href="#acolhimento">Como funciona</a>
+        </div>
+
+        <div class="hero-pill-row">
+          <span class="hero-pill">Atendimento individual</span>
+          <span class="hero-pill">Agenda flexível</span>
+          <span class="hero-pill">Online e presencial</span>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <strong>Cuidado individual</strong>
+            <span>escuta profissional focada no seu momento atual</span>
+          </div>
+          <div class="stat-card">
+            <strong>Retorno inicial</strong>
+            <span>contato organizado para orientar seus próximos passos</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="lead-card reveal">
+        <div class="lead-card-shell">
+          <p class="card-kicker">Primeiro contato com a equipe</p>
+          <h2>Agende sua avaliação inicial com segurança e clareza.</h2>
+          <p class="lead-card-text">Preencha seus dados e nossa equipe retorna para entender seu momento e indicar o melhor caminho.</p>
+
+          <form id="lead-form" class="lead-form" novalidate>
+            <label for="name">Nome</label>
+            <input id="name" type="text" name="name" placeholder="Seu nome" autocomplete="name" required>
+
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="voce@email.com" autocomplete="email" required>
+
+            <label for="phone">Telefone</label>
+            <input id="phone" type="tel" name="phone" placeholder="(11) 99999-9999" autocomplete="tel" inputmode="tel" maxlength="15" required>
+
+            <label for="message">Objetivo</label>
+            <textarea id="message" name="message" rows="4" placeholder="Conte brevemente o que você procura" required></textarea>
+
+            <button id="submit-button" class="button button-primary" type="submit">Quero falar com a equipe</button>
+            <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-soft" id="acolhimento" aria-labelledby="titulo-acolhimento">
+      <div class="container">
+        <div class="section-heading reveal center-heading">
+          <span class="eyebrow">Se você tem sentido...</span>
+          <h2 id="titulo-acolhimento">Alguns sinais merecem mais atenção, acolhimento e suporte profissional.</h2>
+        </div>
+
+        <div class="concern-grid">
+          <article class="concern-card reveal">
+            <span class="concern-number">01</span>
+            <h3>Ansiedade constante</h3>
+            <p>Pensamentos acelerados, dificuldade para desligar e sensação de alerta o tempo todo.</p>
+          </article>
+          <article class="concern-card reveal">
+            <span class="concern-number">02</span>
+            <h3>Cansaço emocional</h3>
+            <p>Rotina pesada, esgotamento e dificuldade para sustentar foco, energia e presença.</p>
+          </article>
+          <article class="concern-card reveal">
+            <span class="concern-number">03</span>
+            <h3>Falta de direção</h3>
+            <p>Momentos de transição, insegurança e a sensação de não saber como organizar a própria vida.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="beneficios" aria-labelledby="titulo-beneficios">
+      <div class="split-intro">
+        <div class="section-heading">
+          <span class="eyebrow">Por que escolher a NovaMente</span>
+          <h2 id="titulo-beneficios">Uma experiência pensada para gerar confiança desde o primeiro contato.</h2>
+        </div>
+        <p class="section-copy">Construímos uma jornada mais clara, humana e acolhedora, com atenção tanto ao cuidado clínico quanto à experiência de atendimento.</p>
+      </div>
+
+      <div class="benefit-layout">
+        <div class="feature-column">
+          <div class="feature-grid">
+            <article class="feature-card reveal">
+              <h3>Escuta especializada</h3>
+              <p>Profissionais preparados para acolher diferentes fases da vida com seriedade, técnica e sensibilidade.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Atendimento flexível</h3>
+              <p>Sessões online ou presenciais com agenda adaptada à sua rotina e ao seu momento atual.</p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Plano de acompanhamento</h3>
+              <p>Objetivos definidos em conjunto, com evolução acompanhada ao longo do processo terapêutico.</p>
+            </article>
+          </div>
+
+          <figure class="support-image-card reveal">
+            <img src="assets/images/imagem-extra2.png" alt="Imagem complementar sobre acolhimento e cuidado emocional" loading="lazy" decoding="async">
+          </figure>
+        </div>
+
+        <figure class="illustration-card reveal">
+          <img src="assets/images/imagem-extra.png" alt="Ilustração representando equilíbrio entre emoções e mente" loading="lazy" decoding="async">
+          <figcaption class="illustration-caption">
+            <h3>E o porquê do nome NovaMente?</h3>
+            <p>Ela carrega um jogo de palavras que soa como um convite ao recomeço. O termo "Nova" traz a ideia de frescor, de uma página em branco e da possibilidade real de mudança. Já a palavra "Mente" não se refere apenas ao intelecto, mas ao nosso mundo interno, às nossas memórias e ao lugar sagrado onde guardamos nossas emoções.</p>
+            <p>Ao juntar as duas, o nome deixa de ser apenas uma marca e passa a ser uma promessa: a de que é possível olhar para si mesmo novamente, sob uma nova luz, com mais paciência e clareza.</p>
+            <p>Visualmente, através de tons terrosos, a marca transmite a sensação de algo que está sendo replantado em solo fértil, sugerindo que o cuidado com a mente é um processo natural, orgânico e, acima de tudo, profundamente humano.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="depoimentos" aria-labelledby="titulo-depoimentos">
+      <div class="container">
+        <div class="section-heading reveal center-heading">
+          <span class="eyebrow">Resultados percebidos</span>
+          <h2 id="titulo-depoimentos">Quem passa pela jornada sente a diferença na rotina e na forma de lidar com a própria vida.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial reveal">
+            <p>"Consegui organizar minha ansiedade e voltar a dormir melhor em poucas semanas."</p>
+            <cite>Marina, 29 anos</cite>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"O processo foi leve, profissional e me ajudou a lidar com a pressão no trabalho."</p>
+            <cite>Rafael, 35 anos</cite>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"Gostei da praticidade no agendamento e da forma como fui acolhida desde o início."</p>
+            <cite>Camila, 24 anos</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container cta reveal" id="contato" aria-labelledby="titulo-contato">
+      <div>
+        <span class="eyebrow">Pronto para começar</span>
+        <h2 id="titulo-contato">Seu primeiro passo pode ser hoje, com um atendimento mais humano e possível.</h2>
+        <p>Se fizer sentido para você, preencha o formulário e converse com a equipe.</p>
+      </div>
+      <a class="button button-primary" href="#top">Preencher formulário</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>NovaMente © 2026. Projeto demonstrativo para teste técnico.</p>
+      <a href="#top">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
